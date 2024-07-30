@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* SECTION 8 */
+#section-8 {
+    padding-bottom: 1200px;
+  }
+  
+  @media (min-width: 768px) {
+    #section-8 {
+      padding-bottom: 10px;
+    }
+  }
+
+/* FAQ SECTION */
+@media (min-width: 1024px) and (max-width: 1366px) {
+  #faq {
+    width: 48%;
+  }
+}
+
+/* BLOG SECTION */
+#blog-section {
+    width: 100%; 
+  }
+  
+  @media (min-width: 768px) { 
+    #blog-section {
+      width: 30%;
+    }
+  }
+
